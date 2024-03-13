@@ -320,6 +320,13 @@ input[type="submit"]:hover {
     .blockHIW {
         flex-direction: column;
     }
+    #small {
+        display: none;
+    }
+    #big {
+        display: flex;
+        flex-direction: row;
+    }
 }
 @media screen and (max-width: 768px) {
     .reviews {
@@ -337,6 +344,13 @@ input[type="submit"]:hover {
     .howItWorks {
         width: 70%;
         margin: auto;
+    }
+    #small {
+            display: none;
+        }
+    #big {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -383,10 +397,10 @@ input[type="submit"]:hover {
         order: 1;
     }
     #big {
-        display: flex;
+        display: none;
     }
     #small {
-        display: none;
+        display: flex;
     }
 }
 @media screen and (max-width: 320px) {
