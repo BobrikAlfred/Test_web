@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Название вашего сайта</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+  <div id="big">
+    <div class="logoLink">
+      <img class="logo" src="logo.png">
+      <p class="link">testLab</p>
+    </div>
+    <div id="blockLink">
+      <a class="link" href="#section1">Как это работает</a>
+      <a class="link" href="#section2">3 блок</a>
+      <a class="link" href="#section3">Отзывы</a>
+      <a class="link" href="#section4">Вопросы и ответы</a>
+      <a class="link" href="#section5">Форма</a>
+    </div>
+  </div>
+  <div id="small" class="dropdown">
+    <div class="logoLink">
+      <img class="logo" src="logo.png">
+      <p class="link" style="color: black;">testLab</p>
+    </div>
+    <img class="dropbtn" src="menu.png" onclick="myFunction()">
+    <div id="myDropdown" class="dropdown-content">
+      <div id="smallHead">
+        <div class="logoLink">
+          <img class="logo" src="logo.png">
+          <p class="link">testLab</p>
+        </div>
+        <img class="dropbtn" src="x.png" onclick="myFunction()">
+      </div>
+      <a class="link" href="#section1">Как это работает</a>
+      <a class="link" href="#section2">3 блок</a>
+      <a class="link" href="#section3">Отзывы</a>
+      <a class="link" href="#section4">Вопросы и ответы</a>
+      <a class="link" href="#section5">Форма</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero-section" id="section0">
+    <div class="content">
+      <h1>Заголовок</h1>
+      <p>Текст маленьким шрифтом</p>
+      <button id="mainButton">Нажми на меня</button>
+    </div>
+  </section>
+
+  <h2 id="section1">Как это работает</h2>
+  <section class="howItWorks">
+    <div class="blockHIW">
+      <img class="icon" src="1.png" alt="1">
+      <div>
+        <h3>Доставка</h3>
+        <p>Самая-самая быстрая доставка</p>
+      </div>
+    </div>
+    <div class="blockHIW">
+      <img class="icon" src="2.png" alt="2">
+      <div>
+        <h3>Рост</h3>
+        <p>Самая-самая быстрая доставка</p>
+      </div>
+    </div>
+    <div class="blockHIW">
+      <img class="icon" src="3.png" alt="3">
+      <div>
+        <h3>Скидка</h3>
+        <p>Самая-самая быстрая доставка</p>
+      </div>
+    </div>
+    <div class="blockHIW">
+      <img class="icon" src="4.png" alt="4">
+      <div>
+        <h3>Договоры</h3>
+        <p>Самая-самая быстрая доставка</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="thirdBlock" id="section2">
+    <div id="thirdText">
+      <h1>Круто ты дошел до третьего блока</h1>
+      <p>Немного текста. Недавно британский медиум Дама Форсайт сделала заявление, шокировавшее английскую общественность. Она сообщила, что нашла переход в ...</p>
+      <p>Еще немного текста — пост пикабушника 241razaB. Комментариев - 6, сохранений - 3. Присоединяйтесь к обсуждению или опубликуйте свой пост!</p>
+    </div>
+    <img id="thirdIcon" src="third.jpg">
+  </section>
+
+  <h2 id="section3">Отзывы</h2>
+  <section class="reviews">
+    <button class="scrollBtn" id="scroll-left"></button>
+    <div class="reviewsBlock">
+      <div class="label">
+        <div class="head">
+          <img class="avatar" src="avatar1.jpeg">
+          <div>
+            <h3>Андрей</h3>
+            <p> город</p>
+          </div>
+        </div>
+        <p>
+          Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+        </p>
+      </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Борис</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Вася</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Георгий</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Дима</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Егор</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Женя</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+      <div class="label">
+      <div class="head">
+        <img class="avatar" src="avatar1.jpeg">
+        <div>
+          <h3>Зина</h3>
+          <p> город</p>
+        </div>
+      </div>
+      <p>
+        Пишу отзывы о книгах и фильмах. Пробую себя и в других сферах. С удовольствием читаю отзывы своих друзей. Не вижу смысла писать в личку предложения дружбы.
+      </p>
+    </div>
+    </div>
+    <button class="scrollBtn" id="scroll-right"></button>
+  </section>
+  <div class="scrllBar">
+    <img class="scrllImg" id="fill" src="fill.png">
+    <img class="scrllImg" src="empty.png">
+    <img class="scrllImg" src="empty.png">
+    <img class="scrllImg" src="empty.png">
+    <img class="scrllImg" src="empty.png">
+    <img class="scrllImg" src="empty.png">
+    <img class="scrllImg" src="empty.png">
+    <img id="scrll375" class="scrllImg" src="empty.png">
+    <img id="scrll376" class="scrllImg" src="empty.png">
+  </div>
+
+  <h2 id="section4">Вопросы и ответы</h2>
+  <section>
+    <div class="question">
+      <details>
+        <summary><h3>Вопрос 1</h3></summary>
+        <p>Ответ на вопрос 1</p>
+      </details>
+      <details>
+        <summary><h3>Вопрос 2</h3></summary>
+        <p>Ответ на вопрос 2</p>
+      </details>
+      <details>
+        <summary><h3>Вопрос 3</h3></summary>
+        <p>Ответ на вопрос 3</p>
+      </details>
+      <details>
+        <summary><h3>Вопрос 4</h3></summary>
+        <p>Ответ на вопрос 4</p>
+      </details>
+      <details>
+        <summary><h3>Вопрос 5</h3></summary>
+        <p>Ответ на вопрос 5</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="someInformation">
+    <div class="infBlock">
+      <h3>Некоторая информация 1</h3>
+      <p>Текст информации</p>
+    </div>
+    <div class="infBlock">
+      <h3>Некоторая информация 2</h3>
+      <p>Текст информации</p>
+    </div>
+    <div class="infBlock">
+      <h3>Некоторая информация 3</h3>
+      <p>Текст информации</p>
+    </div>
+    <div class="infBlock">
+      <h3>Некоторая информация 4</h3>
+      <p>Текст информации</p>
+    </div>
+  </section>
+
+  <section id="section5">
+    <div>
+      <h2>Отправить форму</h2>
+      <form action="#" method="post" id="contactForm">
+        <div class="formBlock">
+          <input type="text" id="name" name="name" placeholder="Имя" required>
+          <input type="tel" id="phone" name="phone" placeholder="Телефон 10 цифр" pattern="[0-9]{10}" required>
+        </div>
+        <div class="formBlock">
+          <div id="checkBox">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">Я согласен</label>
+          </div>
+          <input id="submit" type="submit" value="Отправить">
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2021 Лаборатория интернет.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
